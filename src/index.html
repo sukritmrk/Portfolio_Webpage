@@ -11,113 +11,122 @@
 -->
 <!DOCTYPE html>
 <html lang="en" class="sr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <!-- Todo: put here your site title -->
-    <title>Sukrit Taing | Cybersecurity</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="sukritmrk, Ray, Low-level langauge engineering" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="Sukrit Taing | Cybersecurity Engineer" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.scss" />
-    <script
-      defer
-      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
-    ></script>
+  <!-- Todo: put here your site title -->
+  <title>Sukrit Taing | Cybersecurity</title>
+  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+  <meta name="keywords" content="sukritmrk, Ray, Low-level langauge engineering" />
+  <!-- Todo: improve your SEO by adding a small description of you -->
+  <meta name="description" content="Sukrit Taing | Cybersecurity Engineer" />
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.scss" />
+  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
-  <body>
-    <div id="top"></div>
+  <!-- Todo: remove the below script once you finish your portfolio -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-    <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
-      <div class="container">
-        <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Sukrit Taing</span>
-          <br />
-          Portfolio for <span class="text-color-main">Offensive Security Research and Development Roles</span>
-        </h1>
-        <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
-          >
-        </p>
-      </div>
-    </section>
-    <!-- /END Hero Section -->
+<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
 
-    <!-- **** About Section **** -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title load-hidden">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__image load-hidden">
-              <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
-                height="auto"
-                width="300px"
-                src="assets/1777349976186.png"
-                alt="Profile Image"
-              />
-            </div>
+<body>
+  <div id="top"></div>
+
+  <!-- **** Hero Section **** -->
+  <section id="hero" class="jumbotron">
+    <div class="container">
+      <h1 class="hero-title load-hidden">
+        Hi, my name is <span class="text-color-main">Sukrit Taing</span>
+        <br />
+        Portfolio for <span class="text-color-main">Offensive Security and Development Roles</span>
+      </h1>
+      <p class="hero-cta load-hidden">
+        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-toggle-icon">
+            <span id="theme-icon-sun" class="theme-toggle-inner icon icon-sun" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="5" fill="currentColor" />
+                <g stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none">
+                  <line x1="12" y1="1" x2="12" y2="4" />
+                  <line x1="12" y1="20" x2="12" y2="23" />
+                  <line x1="1" y1="12" x2="4" y2="12" />
+                  <line x1="20" y1="12" x2="23" y2="12" />
+                  <line x1="4.2" y1="4.2" x2="6.3" y2="6.3" />
+                  <line x1="17.7" y1="17.7" x2="19.8" y2="19.8" />
+                  <line x1="4.2" y1="19.8" x2="6.3" y2="17.7" />
+                  <line x1="17.7" y1="6.3" x2="19.8" y2="4.2" />
+                </g>
+              </svg>
+            </span>
+            <span id="theme-icon-moon" class="theme-toggle-inner icon icon-moon active" aria-hidden="true">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z" />
+              </svg>
+            </span>
+          </span>
+        </button>
+      </p>
+    </div>
+  </section>
+  <!-- /END Hero Section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title load-hidden">About Me</h2>
+      <div class="row about-wrapper">
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__image load-hidden">
+            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
+              src="assets/1777349976186.png" alt="Profile Image" />
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="about-wrapper__info load-hidden">
-              <p class="about-wrapper__info-text">
-                Full_name: Sukrit TAING <br>
-                Nickname: Ray <br>
-                Date-of-Birth: Jan-11, 2001 <br>
-                <br>
-                Degree_Name: Bachelor of Engineering in Computer Engineering <br>
-                University_Name: Pibulsongkram Rajabhat University <br>
-                Graduation_Date: Within 2026 <br>
-                GPA: 3.31 <br>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="about-wrapper__info load-hidden">
+            <p class="about-wrapper__info-text">
+              Full_name: Sukrit TAING <br>
+              Nickname: Ray <br>
+              Date-of-Birth: Jan-11, 2001 <br>
+              <br>
+              Degree_Name: Bachelor of Engineering in Computer Engineering <br>
+              University_Name: Pibulsongkram Rajabhat University <br>
+              Graduation_Date: Within 2026 <br>
+              GPA: 3.31 <br>
               <span class="d-flex mt-3">
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
-                >
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="assets/resume.pdf">
                   View Resume
                 </a>
               </span>
-              <p class="d-flex mt-3">
-                <a rel="noreferrer" 
-                class="cta-btn cta-btn--resume" 
-                href="#projects"
-                >
-                  Projects
-                </a>
-              </p>
-            </div>
+            <p class="d-flex mt-3">
+              <a rel="noreferrer" class="cta-btn cta-btn--resume" href="#projects">
+                Projects
+              </a>
+            </p>
           </div>
         </div>
       </div>
-    </section>
-    <!-- /END About Section -->
+    </div>
+  </section>
+  <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
-    <section id="projects">
+  <!-- **** Projects Section **** -->
+  <section id="projects">
+    <div class="container">
+      <div class="project-wrapper">
+        <h2 class="section-title dark-blue-text">Projects</h2>
+      </div>
+    </div>
+
+    <div class="project-item-bg project-item-bg--dark">
       <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
+        <div class="project-item-inner">
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -125,27 +134,19 @@
                 <h3 class="project-wrapper__text-title">Advance Evasion Research</h3>
                 <div>
                   <p class="mb-4">
-                    A personal article project about Research, Coding and Testing the Proof-of-Concept of 
+                    A personal article project about Research, Coding and Testing the Proof-of-Concept of
                     APT's evasion technique level that being use to bypass EDR protocal <br><br>
-                      Indirect Syscall <br>
-                      Module Stomping <br>
-                      Stack Spoofing <br>
+                    Indirect Syscall <br>
+                    Module Stomping <br>
+                    Stack Spoofing <br>
                   </p>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/sukritmrk/Portfolio.git"
-                >
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                  href="https://github.com/sukritmrk/Portfolio.git">
                   Read Article
                 </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/sukritmrk/Portfolio/tree/54b612b5b1fa822ce0917829d7bdc3d8bb7d3bd7/src"
-                >
+                <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                  href="https://github.com/sukritmrk/Portfolio/tree/54b612b5b1fa822ce0917829d7bdc3d8bb7d3bd7/src">
                   Source Code
                 </a>
               </div>
@@ -153,25 +154,22 @@
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <a rel="noreferrer" href="https://github.com/sukritmrk/Portfolio/tree/main/docs/Report" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/WinNoProtection.gif"
-                    />
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/WinNoProtection.gif" />
                   </div>
                 </a>
               </div>
             </div>
           </div>
           <!-- /END Project -->
+        </div>
+      </div>
+    </div>
 
+    <div class="project-item-bg project-item-bg--alt">
+      <div class="container">
+        <div class="project-item-inner">
           <!-- Notice: each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
@@ -179,37 +177,25 @@
                 <h3 class="project-wrapper__text-title">Test Results</h3>
                 <div>
                   <p class="mb-4">
-                    Our research demonstrates that by leveraging low-level system internal knowledge, 
-                    we can navigate around modern security obstacles. The test results show consistent success in 
-                    maintaining stealth during execution, proving that a deep understanding of memory and 
+                    Our research demonstrates that by leveraging low-level system internal knowledge,
+                    we can navigate around modern security obstacles. The test results show consistent success in
+                    maintaining stealth during execution, proving that a deep understanding of memory and
                     system architecture is vital for staying ahead in today's security landscape.
                   </p>
                 </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://github.com/sukritmrk/Portfolio/tree/main/docs/Report/Test%20Results"
-                >
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                  href="https://github.com/sukritmrk/Portfolio/tree/main/docs/Report/Test%20Results">
                   See Test Results
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/WinNoProtectionLog.gif"
-                    />
+                <a rel="noreferrer" href="https://github.com/sukritmrk/Portfolio/tree/main/docs/Report/Test%20Results"
+                  target="_blank">
+                  <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt">
+                    <img alt="Project Image" class="img-fluid" src="assets/WinNoProtectionLog.gif" />
                   </div>
                 </a>
               </div>
@@ -218,60 +204,55 @@
           <!-- /END Project -->
         </div>
       </div>
-    </section>
-    <!-- /END Projects Section -->
+    </div>
+  </section>
+  <!-- /END Projects Section -->
 
-    <!-- **** Contact Section **** -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">
-            I am currently seeking an internship opportunity at KBTG to apply my research in 
-            Windows Internals and Evasion techniques to real-world security challenges</p>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="cta-btn cta-btn--resume"
-            href="https://www.linkedin.com/in/sukrit-taing-16a09b40b"
-            >Connect on LinkedIn</a
-          >
-        </div>
+  <!-- **** Contact Section **** -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-wrapper load-hidden">
+        <p class="contact-wrapper__text">
+          I am currently seeking an internship opportunity at <u>Arise By Infinitas Co., Ltd.</u> To apply my skills in
+          Windows Internals and Evasion techniques to real-world security challenges</p>
+        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
+          href="https://www.linkedin.com/in/sukrit-taing-16a09b40b">Connect on LinkedIn</a>
       </div>
-    </section>
-    <!-- /END Contact Section -->
+    </div>
+  </section>
+  <!-- /END Contact Section -->
 
-    <!-- **** Footer Section **** -->
-    <footer class="footer navbar-static-bottom">
-      <div class="container">
-        <a rel="noreferrer" href="#top" class="back-to-top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+  <!-- **** Footer Section **** -->
+  <footer class="footer navbar-static-bottom">
+    <div class="container">
+      <a rel="noreferrer" href="#top" class="back-to-top">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="noreferrer" href="https://www.facebook.com/xRaydioactive.stR" target="_blank">
+          <i class="fa fa-facebook fa-inverse"></i>
         </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="https://www.facebook.com/xRaydioactive.stR" target="_blank">
-            <i class="fa fa-facebook fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/sukrit-taing-16a09b40b" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="https://github.com/sukritmrk/Portfolio.git" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
-        </div>
-
-        <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          Pibulsongkram Rajabhat University <br>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/sukrit-taing-16a09b40b" target="_blank"
-            >Sukrit Taing</a
-          >
-        </p>
-
+        <a rel="noreferrer" href="https://www.linkedin.com/in/sukrit-taing-16a09b40b" target="_blank">
+          <i class="fa fa-linkedin fa-inverse"></i>
+        </a>
+        <a rel="noreferrer" href="https://github.com/sukritmrk/Portfolio.git" target="_blank">
+          <i class="fa fa-github fa-inverse"></i>
+        </a>
       </div>
-    </footer>
 
-    <script defer type="module" src="index.js"></script>
-  </body>
+      <hr />
+
+      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+      <p class="footer__text">
+        Pibulsongkram Rajabhat University <br>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/sukrit-taing-16a09b40b" target="_blank">Sukrit Taing</a>
+      </p>
+
+    </div>
+  </footer>
+
+  <script defer type="module" src="index.js"></script>
+</body>
+
 </html>

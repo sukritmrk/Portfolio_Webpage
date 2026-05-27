@@ -1,5 +1,5 @@
 // COLORS
-$primary-color: #02b002;
+$primary-color: #00b7ff;
 $secondary-color: #00cdac;
 
 $white-color: #ffffff;
@@ -13,3 +13,37 @@ $dark-blue-text: #272341; // For Headings
 $default-font-size: 1.6rem;
 $big-font-size: 4rem;
 $mid-font-size: 2.5rem;
+
+// กำหนดค่าเริ่มต้นเป็น Light Theme
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --heading-color: #272341;
+  --main-color: #00a3cc; // สีฟ้าเทคๆ ที่คุณเลือกไว้
+  --card-bg: #f8f9fa;
+  --project-bg: #0f172a;
+  --project-bg-alt: #121d34;
+}
+
+// กำหนดสีเมื่อเปิดใช้งาน Dark Theme (เมื่อแท็ก <body> มีคลาส .dark-theme)
+body.dark-theme {
+  --bg-color: #0f172a;  // ดำน้ำเงินลึกๆ แบบเดฟ
+  --text-color: #f8fafc;
+  --heading-color: #f8fafc;
+  --main-color: #38bdf8; // สีฟ้าที่สว่างขึ้นเวลากลางคืน
+  --card-bg: #1e293b;
+  --project-bg: #111827;
+  --project-bg-alt: #1e293b;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.project-wrapper {
+  background: var(--card-bg);
+}
+// ตัวอักษรเด่นๆ ที่เดิมเคยสั่ง color: $main-color ก็แก้เป็น:
+.highlight-text {
+  color: var(--main-color);
+}

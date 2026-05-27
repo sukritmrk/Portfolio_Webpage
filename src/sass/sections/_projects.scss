@@ -1,8 +1,9 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: var(--bg-color);
+  color: var(--text-color);
   margin-top: -10rem;
   padding-top: 15rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
 
   @include respond(tab-land) {
     margin-top: 0;
@@ -59,7 +60,7 @@
       }
 
       & .thumbnail {
-        border: none;
+        border: 6px solid $light-grey;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
         transition: all 0.2s ease-out;
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
@@ -68,11 +69,28 @@
           0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 
         @include respond(phone) {
-          border: 1px solid $light-grey;
+          border: 8px solid $light-grey;
           box-shadow: none;
           margin-bottom: 3.2rem;
         }
       }
+    }
+
+    .project-item-bg {
+      width: 100%;
+      padding: 6rem 0;
+      background-color: var(--project-bg);
+    }
+
+    .project-item-bg--alt {
+      width: 100%;
+      padding: 6rem 0;
+      background-color: var(--project-bg-alt);
+    }
+
+    .project-item-inner {
+      width: 100%;
+      padding: 0;
     }
   }
 }
